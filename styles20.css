@@ -141,6 +141,7 @@ p {
 @media (max-width: 1020px) {
     #title {
         text-align: center;
+        max-height: 300px;
     }
 
     .title-image {
