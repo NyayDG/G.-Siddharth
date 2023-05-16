@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+}
+
+/******************* CLASS SELECTOR ***********************/
+
+.background-img {
+    width: 100%;
+}
+
+/* 01 */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* 02 NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.navbar .nav-item .nav-link {
+    color: black; /* Change the color to your desired value */
+    font-weight: 400;
+  }
+
+/* TITLE */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title-heading {
+    text-align: right;
+}
+
+/* 03 DOWNLOAD BUTTONS. * ALSO INCLUDE CSS ON BUTTONS OF FOOTER */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+.download-a-tag {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-image {
+    width: 22%;
+    position: absolute;
+    left: 15%;
+}
+
+/* PRESS SECTION */
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* FOOTER SECTION */
+.social-icon {
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+/******************** ID SELECTOR **************************/
+
+/* TITLE */
+#title {
+    background-color: #177A4C;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+    background-color: #009FBD;
+    color: #fff;
+}
+
+#press {
+    background-color: #009FBD;
+    padding-bottom: 3%;
+}
+
+
+/*************** MEDIA QUERY ************************/
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 45%;
+    }
+}
